@@ -1,0 +1,589 @@
+$text-color: #484848;
+$text-red: #F06449;
+$text-blue: #2AB7CA;
+$text-yellow: #EAC435;
+$text-green: #995DAD;
+$text-more: #86CD82;
+
+canvas{
+  position: fixed;
+}
+
+hr {
+  height: 1px;
+  color: #484848;
+  background-color: #484848;
+  border: none;
+  }
+
+.wrapper {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin-top: 50px;
+  color: $text-color;
+  text-align: center;
+  pointer-events: none;
+}
+
+.img-photo {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+}
+
+.img-logo {
+  width: 80px;
+	height: 80px;
+}
+
+.img-icon {
+  width: 30px;
+	height: 30px;
+}
+
+.img-section {
+  width:150px;
+  height:150px;
+}
+
+.img-signature {
+  width:300px;
+}
+
+.overlay{
+  .container-info.animated{
+    animation-duration: 2.5s;
+  }
+}
+
+.container-info{
+  background-color: silver;
+  border-radius: 5px;
+  margin-top: 60px;
+	width: 70% !important;
+	//height: 50%;
+	min-height: 350px;
+}
+
+.container-header{
+  margin-top: 150px;
+}
+
+.container-contact{
+	margin-top: 60px;
+	margin-bottom: 33rem;
+	height: 350px;
+	width: 70% !important;
+}
+
+.container-education{
+	background-color: #FCE7E3;
+	border: 3px solid $text-red;
+	min-height: 440px;
+}
+
+.container-skills{
+	background-color: #D8F1F5;
+  border: 3px solid $text-blue;
+}
+
+.container-projects{
+	background-color: #FBF4DA;
+  border: 3px solid $text-yellow;
+}
+
+.container-honors{
+	background-color: #D9C4E1;
+	border: 3px solid $text-green;
+}
+
+.container-more{
+	background-color: #C8E8C6;
+	border: 3px solid $text-more;
+}
+
+.division{
+	background-color: $text-color; 
+	height: 1px; 
+	border: 0;
+	width: 50%;
+}
+
+.line-education{
+	background-color: $text-red; 
+	height: 3px; 
+	border: 0;
+	width: 50%;
+}
+
+.line-skills{
+	background-color: $text-blue; 
+	height: 3px; 
+	border: 0;
+	width: 50%;
+}
+
+.line-projects{
+	background-color: $text-yellow; 
+	height: 3px; 
+	border: 0;
+	width: 50%;
+}
+
+.line-honors{
+	background-color: $text-green; 
+	height: 3px; 
+	border: 0;
+	width: 50%;
+}
+
+.line-more{
+	background-color: $text-more; 
+	height: 3px; 
+	border: 0;
+	width: 50%;
+}
+
+.text-header{
+  text-align: initial;
+  font-size: 2.5rem;
+}
+
+.text-contact{
+  font-size: 2.2rem;
+}
+
+.text-description{
+  text-align: initial;
+  font-size: 1.5rem;
+  margin-bottom: 0px;
+}
+
+.text-honors{
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 0px;
+}
+
+.title-main{
+  font-size: 4.5rem;
+}
+
+.title-education{
+  margin-top: 5px;
+  padding: 3px;
+  font-size: 2.7rem;
+  color: $text-red;
+  font-weight: bold;
+}
+
+.title-stats{
+  margin-top: 5px;
+  padding: 3px;
+  font-size: 3.5rem;
+  color: $text-red;
+  font-weight: bold;
+}
+
+.title-skills{
+  margin-top: 5px;
+  padding: 3px;
+  font-size: 2.7rem;
+  color: $text-blue;
+  font-weight: bold;
+}
+
+.title-projects{
+  margin-top: 5px;
+  padding: 3px;
+  font-size: 2.7rem;
+  color: $text-yellow;
+  font-weight: bold;
+}
+
+.title-honors{
+  margin-top: 5px;
+  padding: 3px;
+  font-size: 2.7rem;
+  color: $text-green;
+  font-weight: bold;
+}
+
+.title-more{
+  margin-top: 5px;
+  padding: 3px;
+  font-size: 2.7rem;
+  color: $text-more;
+  font-weight: bold;
+}
+
+.title{
+  font-family: 'Bree Serif', serif;
+}
+
+.text{
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.percentage{
+  text-align: center;
+}
+
+.contact-info {
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.circle {
+	border-radius: 50%;
+	width: 20px;
+	height: 20px; 
+	background-color: $text-color;
+	float: left;
+	margin-left: 4px;
+}
+
+.circle-animation{
+	animation-name: circle-color;
+	animation-duration: 0.5s;
+	animation-fill-mode:forwards;
+}
+
+.circle-2 {
+	border-radius: 50%;
+	width: 20px;
+	height: 20px; 
+	background-color: $text-color;
+	float: left;
+	margin-left: 4px;
+}
+
+.circle-2-animation{
+	animation-name: circle-color;
+	animation-duration: 0.5s;
+	animation-delay: 0.5s;
+	-moz-animation-delay: 0.5s;
+	-webkit-animation-delay: 0.5s;
+	-o-animation-delay: 0.5s;
+	animation-fill-mode:forwards;
+}
+
+.circle-3 {
+	border-radius: 50%;
+	width: 20px;
+	height: 20px; 
+	background-color: $text-color;
+	float: left;
+	margin-left: 4px;
+}
+
+.circle-3-animation {
+	animation-name: circle-color;
+	animation-duration: 0.5s;
+	animation-delay: 1s;
+	-moz-animation-delay: 1s;
+	-webkit-animation-delay: 1s;
+	-o-animation-delay: 1s;
+	animation-fill-mode:forwards;
+}
+
+
+.circle-4 {
+	border-radius: 50%;
+	width: 20px;
+	height: 20px; 
+	background-color: $text-color;
+	float: left;
+	margin-left: 4px;
+}
+
+.circle-4-animation {
+	animation-name: circle-color;
+	animation-duration: 0.5s;
+	animation-delay: 1.5s;
+	-moz-animation-delay: 1.5s;
+	-webkit-animation-delay: 1.5s;
+	-o-animation-delay: 1.5s;
+	animation-fill-mode:forwards;
+}
+
+.circle-5 {
+	border-radius: 50%;
+	width: 20px;
+	height: 20px; 
+	background-color: $text-color;
+	float: left;
+	margin-left: 4px;
+	margin-right: 7px;
+}
+
+.circle-5-animation {
+	animation-name: circle-color;
+	animation-duration: 0.5s;
+	animation-delay: 2s;
+	-moz-animation-delay: 2s;
+	-webkit-animation-delay: 2s;
+	-o-animation-delay: 2s;
+	animation-fill-mode:forwards;
+}
+
+.text-subtitle{
+  text-align: initial;
+  font-size: 1.5rem;
+	margin-bottom: 0px;
+	padding-right: 2px;
+	font-style: italic;
+	opacity: 0;
+}
+
+.text-subtitle-animation{
+	animation-name: fadeIn;
+	animation-duration: 1s;
+	animation-delay: 2.5s;
+	-moz-animation-delay: 2.5s;
+	-webkit-animation-delay: 2.5s;
+	-o-animation-delay: 2.5s;
+	animation-fill-mode:forwards;
+}
+
+.softskill-1{
+	opacity: 0;
+	animation-name: fadeIn;
+	animation-duration: 1s;
+	animation-delay: 3s;
+	-moz-animation-delay: 3s;
+	-webkit-animation-delay: 3s;
+	-o-animation-delay: 3s;
+	animation-fill-mode:forwards;
+}
+
+.softskill-2{
+	opacity: 0;
+	animation-name: fadeIn;
+	animation-duration: 1s;
+	animation-delay: 7s;
+	-moz-animation-delay: 7s;
+	-webkit-animation-delay: 7s;
+	-o-animation-delay: 7s;
+	animation-fill-mode:forwards;
+}
+
+.softskill-3{
+	opacity: 0;
+	animation-name: fadeIn;
+	animation-duration: 1s;
+	animation-delay: 8s;
+	-moz-animation-delay: 8s;
+	-webkit-animation-delay: 8s;
+	-o-animation-delay: 8s;
+	animation-fill-mode:forwards;
+}
+
+.softskill-4{
+	opacity: 0;
+	animation-name: fadeIn;
+	animation-duration: 1s;
+	animation-delay: 9s;
+	-moz-animation-delay: 9s;
+	-webkit-animation-delay: 9s;
+	-o-animation-delay: 9s;
+	animation-fill-mode:forwards;
+}
+
+@keyframes circle-color {
+	from {background-color: $text-color;}
+	to {background-color: $text-more;}
+}
+
+@keyframes fadeIn {
+	from { opacity:0; } to { opacity:1; }
+}
+
+.path {
+	stroke-dasharray:2700;
+	stroke-dashoffset:2700;
+	animation: draw 3.5s linear forwards;
+ }
+
+.signature{
+	 padding-right: 170px;
+ }
+ 
+ @keyframes draw {
+	to {
+	stroke-dashoffset:0;
+	}
+ }
+
+
+/// 
+$configs: (
+	chart-one: (
+		svgSize: 100px,
+		percentage: 91,
+		strokeWidth: 5px,
+		backgroundColor: $text-color,
+		foregroundColor: $text-red,
+		labelColor: $text-red,
+		labelFontSize: 2.5rem,
+		duration: 5s,
+    animationDelay: 0.5s
+	)
+);
+
+
+/* ------- DO NOT EDIT BELOW --------- */
+$pi: 3.14;
+$labelData: '';
+@for $i from 0 to 101 {
+	$labelData: $labelData + $i + '%' + '\a';
+}
+
+@each $chart, $param in $configs {
+	
+	$c: (map-get($param, svgSize) - map-get($param, strokeWidth)) * $pi;
+	$cOffSet: (map-get($param, percentage)/100)*$c;
+	
+	.#{$chart} {
+		width: map-get($param, svgSize);
+		height: map-get($param, svgSize);
+		margin: 0;
+		position: relative;
+		
+		&.animate {
+			svg .circle-foreground {
+				animation: offset map-get($param, duration) ease-in-out forwards;
+				animation-delay: map-get($param, animationDelay);
+			}
+			figcaption:after {
+				animation: #{$chart}-label map-get($param, duration) steps(map-get($param, percentage)) forwards;
+				animation-delay: map-get($param, animationDelay);
+			}
+		}
+
+		svg {
+			width: 100%;
+			height: 100%;
+			.circle-background {
+				r: (map-get($param, svgSize) - map-get($param, strokeWidth))/2;
+				cx: 50%;
+				cy: 50%;
+				fill: none;
+				stroke: map-get($param, backgroundColor);
+				stroke-width: map-get($param, strokeWidth);
+			}
+			.circle-foreground {
+				@extend .circle-background;
+				stroke: map-get($param, foregroundColor);
+				stroke-dasharray: $cOffSet $c;
+				stroke-dashoffset: $cOffSet;
+				stroke-linecap: round;
+				transform-origin: 50% 50%;
+				transform: rotate(-90deg);
+			}
+		}
+		figcaption {
+			display: inline-block;
+			width: 100%;
+			height: map-get($param, labelFontSize);
+			overflow: hidden;
+			text-align: center;
+			color: map-get($param, labelColor);
+			position: absolute;
+			top: calc(50% - #{map-get($param, labelFontSize)/2});
+			left: 0;
+			font-size: 50;
+			&:after {
+				display: inline-block;
+				content: $labelData;
+				white-space: pre;
+				font-size: map-get($param, labelFontSize);
+				line-height: map-get($param, labelFontSize);
+			}
+		}
+	}
+	@keyframes #{$chart}-label {
+		100% {
+			transform: translateY(map-get($param, labelFontSize) * (-(map-get($param, percentage))));
+		}
+	}
+}
+@keyframes offset {
+	100% {
+		stroke-dashoffset: 0;
+	}
+}
+
+figure {
+  //margin: 1rem!important;
+  margin:auto!important;
+}
+figcaption {
+	font-family: 'Bree Serif', serif;
+}
+
+.downArrow{
+	position: fixed;
+	bottom: 3%;
+	left: 50%;
+}
+.bounce {
+	-moz-animation: bounce 3s infinite;
+	-webkit-animation: bounce 3s infinite;
+	animation: bounce 3s infinite;
+}
+@-moz-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}

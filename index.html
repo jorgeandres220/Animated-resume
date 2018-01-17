@@ -1,0 +1,264 @@
+<!doctype html>
+<html>
+<head>
+  <title>Jorge Andrés Benavides Manzanares</title>
+  <link rel="stylesheet" href="main.css" />
+  <link rel="stylesheet" href="circle.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+  <script type="text/javascript" src="js/main.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/countup.js/1.8.2/countUp.min.js'></script>
+  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+
+  <script src="http://download.remysharp.com/jquery.inview.js"></script>
+
+  <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Nunito+Sans" rel="stylesheet">
+</head>
+
+<body>
+  <div class="wrapper">
+    <canvas id="canvas"></canvas>
+    <div class="overlay">
+      <div class="downArrow bounce" id="arrow">
+        <img width="40" height="40" alt="" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDMyIDMyIiBoZWlnaHQ9IjMycHgiIGlkPSLQodC70L7QuV8xIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCAzMiAzMiIgd2lkdGg9IjMycHgiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxwYXRoIGQ9Ik0yNC4yODUsMTEuMjg0TDE2LDE5LjU3MWwtOC4yODUtOC4yODhjLTAuMzk1LTAuMzk1LTEuMDM0LTAuMzk1LTEuNDI5LDAgIGMtMC4zOTQsMC4zOTUtMC4zOTQsMS4wMzUsMCwxLjQzbDguOTk5LDkuMDAybDAsMGwwLDBjMC4zOTQsMC4zOTUsMS4wMzQsMC4zOTUsMS40MjgsMGw4Ljk5OS05LjAwMiAgYzAuMzk0LTAuMzk1LDAuMzk0LTEuMDM2LDAtMS40MzFDMjUuMzE5LDEwLjg4OSwyNC42NzksMTAuODg5LDI0LjI4NSwxMS4yODR6IiBmaWxsPSIjMTIxMzEzIiBpZD0iRXhwYW5kX01vcmUiLz48Zy8+PGcvPjxnLz48Zy8+PGcvPjxnLz48L3N2Zz4=" />
+      </div>
+
+      <div class="container-header">
+          <img class="img-photo animated fadeIn" src="img/me.png">
+          <h1 class="animated fadeIn title title-main">Jorge Andrés Benavides Manzanares</h1>
+          <p>Yes, hello, it is me.</p>
+      </div>
+      
+      <div class="container container-info container-education" id="education">
+        <p class="title title-education">Education and formation</p>
+        <div class="row">
+          <div class="col-md-3">
+              <br>
+              <br>
+              <br>
+              <br>
+              <img class="img-section" src="img/education.png">
+          </div>
+          <div class="col-md-9">
+              <div class="row">
+                <div class="col-md-9">
+                    <p class="text text-header"><b>Instituto Tecnológico de Costa Rica (2014—)</b></p>
+                    <p class="text text-description">· Bachelor's Degree in Computer Science</p>
+                    <p class="text text-description">· Cartago, Costa Rica</p>
+                    <p class="text text-description">· Expected graduation date: September 2018</p>
+
+                </div>
+                <div class="col-md-3">
+                    <div class="percentage">
+                        <figure class="chart-one" id="percentage">
+                          <svg role="img" xmlns="http://www.w3.org/2000/svg">
+                            <title>Average GPA</title>
+                            <desc>Average GPA</desc>
+                            <circle class="circle-background"/>
+                            <circle class="circle-foreground"/>
+                          </svg>
+                          <figcaption></figcaption>
+                        </figure>
+                      </div>
+        
+                      <p class="text">Average GPA</p>
+                </div>
+              </div>
+
+              <hr class="division">
+              <br>
+              <div class="row">
+                  <div class="col-md-9">
+                    <p class="text text-header"><b>BrainStation (2018—)</b></p>
+                    <p class="text text-description">· Currently taking the Immersive Programming course</p>
+                    <br>
+                    <p class="text text-header"><b>Konrad Group (2018—)</b></p>
+                    <p class="text text-description">· Due to offically start internship in February 2018</p>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container container-info container-skills">
+        <p class="title title-skills">Technical skills</p>
+        <div class="row">
+          <p class="text">Experience with:</p>
+          <div class="col-md-3">
+              <img data-aos="fade-left" class="img-logo" src="https://cdn4.iconfinder.com/data/icons/scripting-and-programming-languages/512/Python_logo-512.png">
+            </div>
+          <div class="col-md-3">
+              <img data-aos="fade-left" class="img-logo" src="https://png.icons8.com/metro/540/java-coffee-cup-logo.png">
+          </div>
+          <div class="col-md-3">
+              <img data-aos="fade-left" class="img-logo" src="img/c-logo.png">
+          </div>
+          <div class="col-md-3">
+              <img data-aos="fade-left" class="img-logo" src="https://icon-icons.com/icons2/628/PNG/512/html-file-rounded-rectangular-black-interface-symbol-of-web-pages_icon-icons.com_57693.png">
+          </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-3">
+                <img data-aos="fade-right" class="img-logo" src="http://www.joomempresa.com/images/clients/css3-logo.png">
+              </div>
+            <div class="col-md-3">
+                <img data-aos="fade-right" class="img-logo" src="img/js.png">
+            </div>
+            <div class="col-md-3">
+                <img data-aos="fade-right" class="img-logo" src="https://uploads.toptal.io/blog/category/logo/4/php.png">
+            </div>
+            <div class="col-md-3">
+                <img data-aos="fade-right" class="img-logo" src="http://www.studixo.com/assets/images/mysql_logo1600.png">
+            </div>
+          </div>
+          <br>
+      </div>
+
+      <div class="container container-info container-projects">
+        <p class="title title-projects">Relevant projects</p>
+        <div class="row">
+          <div class="col-md-8">
+              <p class="text text-header"><b>Web development</b></p>
+              <p class="text text-description">· A web and mobile platform made for ASADA de San José de la Montaña. It lets users fill out digital forms that employees can then manage accordingly.</p>
+              <p class="text text-description">· Made with HTML, CSS, JavaScript, JQuery and PHP using free hosting.</p>
+              <hr class="division">
+              <p class="text text-header"><b>Databases</b></p>
+              <p class="text text-description">· A system made up of three connected clusters (SQL Server, Cassandra and Mongo). It was designed to control lights and electrical appliances in houses.</p>
+              <p class="text text-description">· Made using Docker.</p>
+              <br>
+              <div class="row">
+                
+              </div>
+          </div>
+          <div class="col-md-4">
+              <br>
+              <br>
+              <img class="img-section" src="img/projects.png">
+          </div>
+        </div>
+      </div>
+
+      <div class="container container-info container-honors" id="honors">
+        <p class="title title-honors">Honors</p>
+        <div class="row">
+          <div class="col-md-3">
+              <br>
+              <br>
+              <img class="img-section" src="https://desight.pro/upload/img/linerix-free/medal-577ac113eac43-big.png">
+          </div>
+          <div class="col-md-8">
+              <p class="text text-honors">One of the top <div class="counter title-honors" data-count="30">0</div></p>
+              <p class="text text-honors">admission grades for the 2013-2014 Instituto Tecnológico de Costa Rica entry period.</p>
+              <br>
+              <hr class="division">
+              <br>
+              <p class="text text-honors">Currently set to graduate with honors from Instituto Tecnológico de Costa Rica in <div class="title-honors">September of 2018</div></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container container-info container-more" id="more">
+        <p class="title title-more">Additional skills</p>
+        <div class="row">
+          <div class="col-md-9">
+              <p class="text text-header"><b>Languages</b></p>
+              <div class="row">
+                <div class="col-md-6">
+                    <div class="row">
+                      <div class="col-md-4">
+                          <p class="text text-description">· Spanish:</p>
+                      </div>
+                      <div class="col-md-8">
+                          <div class="circle" id ="circle-sp"></div>
+                          <div class="circle-2" id ="circle-2-sp"></div>
+                          <div class="circle-3" id ="circle-3-sp"></div>
+                          <div class="circle-4" id ="circle-4-sp"></div>
+                          <div class="circle-5" id ="circle-5-sp"></div>
+                          <p class="text text-subtitle" id="text-sp">Native</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="row">
+                      <div class="col-md-4">
+                          <p class="text text-description">· English:</p>
+                      </div>
+                      <div class="col-md-8">
+                        <div class="circle" id ="circle-en"></div>
+                          <div class="circle-2" id ="circle-2-en"></div>
+                          <div class="circle-3" id ="circle-3-en"></div>
+                          <div class="circle-4" id ="circle-4-en"></div>
+                          <div class="circle-5" id ="circle-5-en"></div>
+                          <p class="text text-subtitle" id="text-en">Advanced</p>
+                      </div>
+                    </div>
+                </div>
+              </div>
+              
+              <hr class="division">
+              <p class="text text-header"><b>Soft skills</b></p>
+              <div class="row">
+                <div class="col-md-1">
+                </div>
+                <div class="col-md-5">
+                  <p class="text text-description" id="ss-1">· Highly organized</p>
+                  <p class="text text-description" id="ss-2">· Eager to learn</p>
+                </div>
+                <div class="col-md-5">
+                  <p class="text text-description" id="ss-3">· Critical thinker</p>
+                  <p class="text text-description" id="ss-4">· Functions well under pressure</p>
+                </div>
+                <div class="col-md-1">
+                </div>
+              </div>
+              <br>
+              <div class="row">
+                
+              </div>
+          </div>
+          <div class="col-md-3">
+              <br>
+              <br>
+              <img class="img-section" src="img/more.png">
+          </div>
+        </div>
+      </div>
+
+      <div class="container container-contact" id="contact">
+        <h1 class="animated fadeIn title title-main">Contact information</h1>
+        <br>
+        <p class="text text-contact">✆ (+506) 7114-4319</p>
+        <p class="text text-contact">✉ jorgeandresbm22@gmail.com</p>
+
+        <svg class="signature "version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="390px" height="200px" viewBox="0 0 340 333" enable-background="new 0 0 340 333" xml:space="preserve" visibility="hidden">
+
+  <path id="path-1" fill-opacity="0.0" stroke="#000000" stroke-width="7" stroke-miterlimit="10" d=" M 223.5 253.4 C 214.3 251 207.7 246.1 203.7 238.5 C 201.8 235.1 201.5 232.9 201.5 223.5 C 201.5 213.6 201.8 211.9 204.2 206.7 C 207.8 199 217.7 188.7 224.7 185.4 C 227.7 184 233.2 182.2 236.8 181.4 C 244.6 179.8 265.4 179.6 281.5 180.9 C 287.6 181.5 296.4 182.2 301.3 182.5 L 310 183.1 L 310 180.3 C 310 171.9 302.4 153.2 295 143.4 C 279.7 123.1 253.9 118.1 219.1 128.6 C 206.5 132.4 206.6 131.1 220.1 117.8 C 235.4 102.7 242.4 90.4 243.7 76.6 C 244.5 67.8 242.9 64 238.6 64 C 232.5 64 220.6 72.1 213.6 81 C 202.8 94.9 195.1 112.7 192.9 129.4 C 191.2 142.6 192.1 161 194.9 168.5 C 199.7 181.4 196.8 182.2 189.8 170 C 183.3 158.4 172.1 148.2 163.3 145.5 C 161 144.9 161 145 161 153.7 C 161 177.3 155 202.3 145.5 218.7 C 141.3 225.7 132.4 234.2 125.5 237.6 C 110 245.2 90.8 238.4 82.3 222.3 C 78.1 214.4 76.7 207 77.2 196.2 C 77.6 188 78 186.3 81.8 178.8 C 85.2 171.7 87.5 168.8 96.2 160.3 C 104.3 152.5 108.2 149.5 114 146.7 C 125.2 141.3 135.8 138.7 147 138.6 L 156.5 138.5 L 155.8 126 C 154.8 106.9 153.1 92.5 149.5 70 C 145.6 45.7 143.4 26 144.4 23.5 C 146 19.3 147.7 24.8 149.4 39 C 150.4 47 152.4 61.2 154 70.5 C 157.3 90 158.5 101 160 123.4 C 160.6 132.2 161.3 139.7 161.5 140.1 C 161.8 140.5 163.3 141.1 164.9 141.5 C 168.6 142.3 180.6 150.6 184.5 155.1 L 187.5 158.5 L 187.5 145.5 C 187.6 121.4 192.6 104.6 205.6 84.9 C 215.1 70.5 232.4 57.9 240.6 59.4 C 245.7 60.4 248 64.7 248 73 C 248 87 241.2 101.5 228.4 114.9 L 220.1 123.6 L 227.3 121.7 C 237.8 118.9 258.5 118.2 267 120.4 C 285.5 125.2 297.9 136 307.1 155.5 C 311 163.8 314 173.8 314 178.4 C 314 182 316 182.5 324.6 181.2 C 338.9 179 350.6 173.1 360.8 163 C 366.2 157.7 368.8 152.8 371.5 143.2 C 373.3 136.8 375.2 134.8 377.3 136.9 C 377.9 137.5 378.8 142.2 379.1 147.3 C 379.9 157.9 382.5 165.8 387.2 171.4 C 395.7 181.8 411.4 180 423.7 167.3 C 429 161.8 438 145.7 438 141.8 C 438 139.9 440.6 137.6 441.8 138.4 C 442.3 138.7 443.1 142.7 443.4 147.2 C 443.8 151.8 446.4 167.4 449.2 182 C 452 196.6 454.5 209.7 454.7 211.2 C 455 212.7 454.9 214.7 454.6 215.7 C 452.6 220.9 448.9 208.3 443 175.6 C 441.4 166.3 440 157.4 440 155.9 C 440 151.6 438.8 152.4 435.5 158.7 C 431.6 166.2 421.9 176 415 179.5 C 407.3 183.4 398.7 184 392.6 181 C 384 176.9 376.9 166 375.3 154.4 L 374.7 150.1 L 372.3 155 C 370.8 158 366.7 162.9 361.9 167.5 C 350.9 177.8 339.5 183.4 325.6 185.5 C 320.2 186.3 315.6 187.1 315.4 187.3 C 315.2 187.5 314.6 191.1 314 195.2 C 312.6 206.4 309.2 213.9 301.2 223.9 C 292.8 234.3 273.1 246.7 258 251 C 250.7 253.1 228.5 254.7 223.5 253.4 Z  M 253.4 247.4 C 267.5 244.2 287.4 233 296.5 222.9 C 304.4 214.1 309 203.9 310.4 191.8 L 311 187 L 304.7 187 C 301.3 187 290.4 186.3 280.5 185.5 C 250.9 183.1 238.2 184 226.5 189.4 C 214.5 194.8 206 207.5 205.2 221.1 C 204.3 236.7 211.2 246.6 224.8 249 C 230.9 250.2 244.4 249.4 253.4 247.4 Z  M 124.7 232.9 C 135.6 227.7 143.5 216.5 150 197.2 C 153.9 185.6 155.8 174.3 156.6 157.2 L 157.3 143 L 148.3 143 C 129.4 143 111.8 150.2 98.5 163.5 C 85.2 176.6 80.3 187.8 81.3 202.4 C 82.2 217 88.6 228.2 98.7 233.1 C 108.2 237.7 114.8 237.6 124.7 232.9 Z " fill-rule="evenodd" fill="rgb(0,0,0)"/>
+  
+   <path id="path-2" fill-opacity="0.0" stroke="#000000" stroke-width="7" stroke-miterlimit="10" d=" M 336.3 122.7 C 334.6 119.9 346.5 116 365.5 113 C 372.7 111.9 393.8 108.9 412.5 106.5 C 431.2 104.1 457.3 100.7 470.5 98.9 C 488.2 96.6 497 95.9 504 96.2 C 513.6 96.7 518.5 98.1 517.7 100.3 C 517.3 101.5 516.4 101.5 504.5 100.5 C 497.2 99.8 470.6 103 370.5 116.6 C 363.9 117.5 353.6 119.4 347.7 121 C 340.8 122.7 336.7 123.4 336.3 122.7 Z " fill="rgb(0,0,0)"/>
+  
+  <path id="path-3" fill-opacity="0.0" stroke="#000000" stroke-width="7" stroke-miterlimit="10" d=" M 496.6 224.1 C 496.3 223.6 497.8 221.1 499.9 218.5 C 502.1 215.9 504.6 212.3 505.6 210.5 L 507.3 207.3 L 503.1 202 C 497.6 195 495.5 191.1 496.8 189.8 C 497.5 189.1 499.8 191.3 503.7 196.3 L 509.5 203.8 L 514 194.7 C 516.7 189.2 519.1 185.5 520 185.5 C 522.2 185.5 521.5 188.3 516.9 198 L 512.9 206.5 L 516.2 209.2 C 518.7 211.2 519.2 212.2 518.3 213.1 C 517.4 214 516.4 213.8 513.7 212.1 L 510.3 210 L 509.3 212.3 C 508.7 213.5 506.4 216.9 504.1 219.8 C 500.2 224.7 497.8 226.1 496.6 224.1 Z " fill="rgb(0,0,0)"/>
+  
+  <path id="path-4" fill-opacity="0.0" stroke="#000000" stroke-width="7" stroke-miterlimit="10" d=" M 552 209.3 C 550.2 206.6 548.5 204.3 548.3 204.1 C 548.1 203.8 546.7 205.2 545.1 207.1 C 542.8 209.8 541.9 210.2 540.9 209.3 C 539.9 208.3 540.3 207.2 542.5 203.9 L 545.4 199.8 L 542.5 194.2 C 540.9 191.1 537.6 186 535.3 182.8 C 531.6 177.8 531.2 176.9 532.7 176.3 C 534.8 175.5 539.9 181.1 544.3 189.2 C 546.1 192.4 547.8 195 548.2 195 C 548.5 195 549.6 193.1 550.5 190.7 C 551.4 188.3 553.2 185 554.5 183.4 C 558.6 178.3 558.6 182.8 554.5 191.8 L 550.8 199.9 L 554.5 205.9 C 557.8 211.2 558.4 214 556.1 214 C 555.7 214 553.8 211.9 552 209.3 Z " fill="rgb(0,0,0)"/>
+  
+</svg>
+        <hr class="line-education">
+        <hr class="line-skills">
+        <hr class="line-projects">
+        <hr class="line-honors">
+        <hr class="line-more">
+      </div>
+
+    </div>
+  </div>
+
+</body>
+
+</html>

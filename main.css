@@ -1,0 +1,466 @@
+canvas {
+  position: fixed; }
+
+hr {
+  height: 1px;
+  color: #484848;
+  background-color: #484848;
+  border: none; }
+
+.wrapper {
+  position: relative; }
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin-top: 50px;
+  color: #484848;
+  text-align: center;
+  pointer-events: none; }
+
+.img-photo {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px; }
+
+.img-logo {
+  width: 80px;
+  height: 80px; }
+
+.img-icon {
+  width: 30px;
+  height: 30px; }
+
+.img-section {
+  width: 150px;
+  height: 150px; }
+
+.img-signature {
+  width: 300px; }
+
+.overlay .container-info.animated {
+  animation-duration: 2.5s; }
+
+.container-info {
+  background-color: silver;
+  border-radius: 5px;
+  margin-top: 60px;
+  width: 70% !important;
+  min-height: 350px; }
+
+.container-header {
+  margin-top: 150px; }
+
+.container-contact {
+  margin-top: 60px;
+  margin-bottom: 33rem;
+  height: 350px;
+  width: 70% !important; }
+
+.container-education {
+  background-color: #FCE7E3;
+  border: 3px solid #F06449;
+  min-height: 440px; }
+
+.container-skills {
+  background-color: #D8F1F5;
+  border: 3px solid #2AB7CA; }
+
+.container-projects {
+  background-color: #FBF4DA;
+  border: 3px solid #EAC435; }
+
+.container-honors {
+  background-color: #D9C4E1;
+  border: 3px solid #995DAD; }
+
+.container-more {
+  background-color: #C8E8C6;
+  border: 3px solid #86CD82; }
+
+.division {
+  background-color: #484848;
+  height: 1px;
+  border: 0;
+  width: 50%; }
+
+.line-education {
+  background-color: #F06449;
+  height: 3px;
+  border: 0;
+  width: 50%; }
+
+.line-skills {
+  background-color: #2AB7CA;
+  height: 3px;
+  border: 0;
+  width: 50%; }
+
+.line-projects {
+  background-color: #EAC435;
+  height: 3px;
+  border: 0;
+  width: 50%; }
+
+.line-honors {
+  background-color: #995DAD;
+  height: 3px;
+  border: 0;
+  width: 50%; }
+
+.line-more {
+  background-color: #86CD82;
+  height: 3px;
+  border: 0;
+  width: 50%; }
+
+.text-header {
+  text-align: initial;
+  font-size: 2.5rem; }
+
+.text-contact {
+  font-size: 2.2rem; }
+
+.text-description {
+  text-align: initial;
+  font-size: 1.5rem;
+  margin-bottom: 0px; }
+
+.text-honors {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 0px; }
+
+.title-main {
+  font-size: 4.5rem; }
+
+.title-education {
+  margin-top: 5px;
+  padding: 3px;
+  font-size: 2.7rem;
+  color: #F06449;
+  font-weight: bold; }
+
+.title-stats {
+  margin-top: 5px;
+  padding: 3px;
+  font-size: 3.5rem;
+  color: #F06449;
+  font-weight: bold; }
+
+.title-skills {
+  margin-top: 5px;
+  padding: 3px;
+  font-size: 2.7rem;
+  color: #2AB7CA;
+  font-weight: bold; }
+
+.title-projects {
+  margin-top: 5px;
+  padding: 3px;
+  font-size: 2.7rem;
+  color: #EAC435;
+  font-weight: bold; }
+
+.title-honors {
+  margin-top: 5px;
+  padding: 3px;
+  font-size: 2.7rem;
+  color: #995DAD;
+  font-weight: bold; }
+
+.title-more {
+  margin-top: 5px;
+  padding: 3px;
+  font-size: 2.7rem;
+  color: #86CD82;
+  font-weight: bold; }
+
+.title {
+  font-family: 'Bree Serif', serif; }
+
+.text {
+  font-family: 'Nunito Sans', sans-serif; }
+
+.percentage {
+  text-align: center; }
+
+.contact-info {
+  vertical-align: middle;
+  display: inline-block; }
+
+.circle {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: #484848;
+  float: left;
+  margin-left: 4px; }
+
+.circle-animation {
+  animation-name: circle-color;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards; }
+
+.circle-2 {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: #484848;
+  float: left;
+  margin-left: 4px; }
+
+.circle-2-animation {
+  animation-name: circle-color;
+  animation-duration: 0.5s;
+  animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -webkit-animation-delay: 0.5s;
+  -o-animation-delay: 0.5s;
+  animation-fill-mode: forwards; }
+
+.circle-3 {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: #484848;
+  float: left;
+  margin-left: 4px; }
+
+.circle-3-animation {
+  animation-name: circle-color;
+  animation-duration: 0.5s;
+  animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+  -o-animation-delay: 1s;
+  animation-fill-mode: forwards; }
+
+.circle-4 {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: #484848;
+  float: left;
+  margin-left: 4px; }
+
+.circle-4-animation {
+  animation-name: circle-color;
+  animation-duration: 0.5s;
+  animation-delay: 1.5s;
+  -moz-animation-delay: 1.5s;
+  -webkit-animation-delay: 1.5s;
+  -o-animation-delay: 1.5s;
+  animation-fill-mode: forwards; }
+
+.circle-5 {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: #484848;
+  float: left;
+  margin-left: 4px;
+  margin-right: 7px; }
+
+.circle-5-animation {
+  animation-name: circle-color;
+  animation-duration: 0.5s;
+  animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  -webkit-animation-delay: 2s;
+  -o-animation-delay: 2s;
+  animation-fill-mode: forwards; }
+
+.text-subtitle {
+  text-align: initial;
+  font-size: 1.5rem;
+  margin-bottom: 0px;
+  padding-right: 2px;
+  font-style: italic;
+  opacity: 0; }
+
+.text-subtitle-animation {
+  animation-name: fadeIn;
+  animation-duration: 1s;
+  animation-delay: 2.5s;
+  -moz-animation-delay: 2.5s;
+  -webkit-animation-delay: 2.5s;
+  -o-animation-delay: 2.5s;
+  animation-fill-mode: forwards; }
+
+.softskill-1 {
+  opacity: 0;
+  animation-name: fadeIn;
+  animation-duration: 1s;
+  animation-delay: 3s;
+  -moz-animation-delay: 3s;
+  -webkit-animation-delay: 3s;
+  -o-animation-delay: 3s;
+  animation-fill-mode: forwards; }
+
+.softskill-2 {
+  opacity: 0;
+  animation-name: fadeIn;
+  animation-duration: 1s;
+  animation-delay: 7s;
+  -moz-animation-delay: 7s;
+  -webkit-animation-delay: 7s;
+  -o-animation-delay: 7s;
+  animation-fill-mode: forwards; }
+
+.softskill-3 {
+  opacity: 0;
+  animation-name: fadeIn;
+  animation-duration: 1s;
+  animation-delay: 8s;
+  -moz-animation-delay: 8s;
+  -webkit-animation-delay: 8s;
+  -o-animation-delay: 8s;
+  animation-fill-mode: forwards; }
+
+.softskill-4 {
+  opacity: 0;
+  animation-name: fadeIn;
+  animation-duration: 1s;
+  animation-delay: 9s;
+  -moz-animation-delay: 9s;
+  -webkit-animation-delay: 9s;
+  -o-animation-delay: 9s;
+  animation-fill-mode: forwards; }
+
+@keyframes circle-color {
+  from {
+    background-color: #484848; }
+  to {
+    background-color: #86CD82; } }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+.path {
+  stroke-dasharray: 2700;
+  stroke-dashoffset: 2700;
+  animation: draw 3.5s linear forwards; }
+
+.signature {
+  padding-right: 170px; }
+
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0; } }
+
+/* ------- DO NOT EDIT BELOW --------- */
+.chart-one {
+  width: 100px;
+  height: 100px;
+  margin: 0;
+  position: relative; }
+  .chart-one.animate svg .circle-foreground {
+    animation: offset 5s ease-in-out forwards;
+    animation-delay: 0.5s; }
+  .chart-one.animate figcaption:after {
+    animation: chart-one-label 5s steps(91) forwards;
+    animation-delay: 0.5s; }
+  .chart-one svg {
+    width: 100%;
+    height: 100%; }
+    .chart-one svg .circle-background, .chart-one svg .circle-foreground {
+      r: 47.5px;
+      cx: 50%;
+      cy: 50%;
+      fill: none;
+      stroke: #484848;
+      stroke-width: 5px; }
+    .chart-one svg .circle-foreground {
+      stroke: #F06449;
+      stroke-dasharray: 271.453px 298.3px;
+      stroke-dashoffset: 271.453px;
+      stroke-linecap: round;
+      transform-origin: 50% 50%;
+      transform: rotate(-90deg); }
+  .chart-one figcaption {
+    display: inline-block;
+    width: 100%;
+    height: 2.5rem;
+    overflow: hidden;
+    text-align: center;
+    color: #F06449;
+    position: absolute;
+    top: calc(50% - 1.25rem);
+    left: 0;
+    font-size: 50; }
+    .chart-one figcaption:after {
+      display: inline-block;
+      content: "0%\a 1%\a 2%\a 3%\a 4%\a 5%\a 6%\a 7%\a 8%\a 9%\a 10%\a 11%\a 12%\a 13%\a 14%\a 15%\a 16%\a 17%\a 18%\a 19%\a 20%\a 21%\a 22%\a 23%\a 24%\a 25%\a 26%\a 27%\a 28%\a 29%\a 30%\a 31%\a 32%\a 33%\a 34%\a 35%\a 36%\a 37%\a 38%\a 39%\a 40%\a 41%\a 42%\a 43%\a 44%\a 45%\a 46%\a 47%\a 48%\a 49%\a 50%\a 51%\a 52%\a 53%\a 54%\a 55%\a 56%\a 57%\a 58%\a 59%\a 60%\a 61%\a 62%\a 63%\a 64%\a 65%\a 66%\a 67%\a 68%\a 69%\a 70%\a 71%\a 72%\a 73%\a 74%\a 75%\a 76%\a 77%\a 78%\a 79%\a 80%\a 81%\a 82%\a 83%\a 84%\a 85%\a 86%\a 87%\a 88%\a 89%\a 90%\a 91%\a 92%\a 93%\a 94%\a 95%\a 96%\a 97%\a 98%\a 99%\a 100%\a";
+      white-space: pre;
+      font-size: 2.5rem;
+      line-height: 2.5rem; }
+
+@keyframes chart-one-label {
+  100% {
+    transform: translateY(-227.5rem); } }
+
+@keyframes offset {
+  100% {
+    stroke-dashoffset: 0; } }
+
+figure {
+  margin: auto !important; }
+
+figcaption {
+  font-family: 'Bree Serif', serif; }
+
+.downArrow {
+  position: fixed;
+  bottom: 3%;
+  left: 50%; }
+
+.bounce {
+  -moz-animation: bounce 3s infinite;
+  -webkit-animation: bounce 3s infinite;
+  animation: bounce 3s infinite; }
+
+@-moz-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    transform: translateY(0); }
+  40% {
+    -moz-transform: translateY(-30px);
+    transform: translateY(-30px); }
+  60% {
+    -moz-transform: translateY(-15px);
+    transform: translateY(-15px); } }
+
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0); }
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px); }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px); } }
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0); }
+  40% {
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px); }
+  60% {
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px); } }
